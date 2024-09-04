@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body, div, button, li, ul, a, h1, h2, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #070;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.button__info{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #111;
+    border-radius: 20px;
+}
+
+.info{
+    color: #eee;
+    font-size: 32px;
+    margin: 5px auto;
+    padding: 15px;
+    display: inline-block;
+}
